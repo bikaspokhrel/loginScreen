@@ -13,7 +13,7 @@
         <Label Content="Username" Foreground="White"/>
         <TextBox Name="txtUsername" Background="Chocolate" Foreground="White" FontSize="18"/>
         <Label Content="Password" Foreground="White"/>
-        <TextBox Name="txtPassword" Background="Chocolate" Foreground="White" FontSize="18"/>
+        <PasswordBox Name="txtPassword" Background="Chocolate" Foreground="White" FontSize="18"/>
         <Button Name="btnSubmit" Background="Chocolate" Content="SUBMIT" Foreground="White" FontSize="18" Margin="60 10"></Button>
         </StackPanel>
     </Border>
