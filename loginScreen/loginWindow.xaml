@@ -14,7 +14,7 @@
         <TextBox Name="txtUsername" Background="Chocolate" Foreground="White" FontSize="18"/>
         <Label Content="Password" Foreground="White"/>
         <PasswordBox Name="txtPassword" Background="Chocolate" Foreground="White" FontSize="18"/>
-        <Button Name="btnSubmit" Background="Chocolate" Content="SUBMIT" Foreground="White" FontSize="18" Margin="60 10"></Button>
+        <Button Name="btnSubmit" Click="BtnSubmit_OnClick" Background="Chocolate" Content="SUBMIT" Foreground="White" FontSize="18" Margin="60 10"></Button>
         </StackPanel>
     </Border>
 </Window>
